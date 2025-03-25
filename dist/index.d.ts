@@ -1,0 +1,11 @@
+export { flattenMultiPolygon, simplifyPolygon, mergePolygons, calculateArea, isPointInPolygon, optimizeForRendering } from './utils/polygonUtils';
+export type { Polygon, MultiPolygon, GeoJSONFeature, GeoJSONFeatureCollection } from './utils/polygonUtils';
+export { LRUCache, memoize } from './utils/cacheUtils';
+export { usePolygonData } from './hooks/usePolygonData';
+export type { UsePolygonDataOptions, UsePolygonDataResult } from './hooks/usePolygonData';
+export { usePolygonOperations } from './hooks/usePolygonOperations';
+export type { PolygonOperationsOptions } from './hooks/usePolygonOperations';
+export { OptimizedPolygon } from './components/OptimizedPolygon';
+export type { OptimizedPolygonProps } from './components/OptimizedPolygon';
+export { PolygonMap } from './components/PolygonMap';
+export type { PolygonMapProps } from './components/PolygonMap';
